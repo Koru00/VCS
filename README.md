@@ -18,7 +18,7 @@ Instead of relying on manual bookkeeping and low‑level operations, VCS introdu
 - **AI‑Generated Commit Messages** – optional, configurable, and context‑aware  
 - **Smart Automation** – commit suggestions, workflow triggers, and build‑aware reminders  
 - **Simplified Remote Operations** – predictable push/pull and stream synchronization  
-- **A modern multi‑language architecture** – Rust core, optional C modules, Python tooling
+- **A modern multi‑language architecture** – Rust core and Python tooling
 
 The goal is not to replicate Git, but to build a cleaner, more intelligent system from the ground up.
 
@@ -81,12 +81,6 @@ VCS is implemented using a multi‑language architecture with clear separation o
 - Semantic diff and merge logic  
 - Repository operations  
 - High‑performance components  
-
-### C (Optional Modules)
-- Hashing  
-- Compression  
-- Filesystem optimizations  
-- Exposed via stable C headers for FFI  
 
 ### Python (High‑Level Layer)
 - CLI  
