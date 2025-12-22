@@ -14,7 +14,7 @@ if (-not (Test-Path "build/release")) {
 
 # --- Build Rust as static library ---
 Write-Host "[BUILD] Compiling and Running Rust" -ForegroundColor Yellow
-Push-Location "src/core_rust"
+Push-Location "src/"
 cargo run --release
 if ($LASTEXITCODE -ne 0) {
     Pop-Location
