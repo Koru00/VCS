@@ -6,3 +6,4 @@ build = "build.rs"
 
 [dependencies]
 pyo3 = { version = "0.21", features = ["auto-initialize"] }
+clap = { version = "4.5", features = ["derive"] }
