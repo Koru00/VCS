@@ -1,7 +1,7 @@
 use std::env;
-
+use clib::Command;
 mod init;
 
-fn main() {
+fn main() {  
     init::init_vcs(None);
 }
